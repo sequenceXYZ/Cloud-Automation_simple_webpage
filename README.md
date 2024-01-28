@@ -1,0 +1,8 @@
+# Task:
+## 1. Install nginx on Amazon Linux
+## 2. Check nginx service status
+## 3. Start nginx service
+## 4. Copy public IP in browser and check running nginx default webpage
+## 5. Run bash command and copy it in index.html
+## 6. Reload nginx service:
+## 7. Configure the system so that Nginx will start automatically when the system boots up
