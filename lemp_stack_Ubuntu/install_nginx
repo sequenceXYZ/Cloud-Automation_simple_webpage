@@ -1,0 +1,50 @@
+Task: deloying an application on NGINX in AWS EC2 Ubuntu
+
+1. update repositories
+apt-get update
+
+2. install nginx
+apt-get install nginx
+
+3. install and enable Firewall
+apt-get install ufw
+ufw app list
+ufw allow "Nginx HTTP"
+
+4. check nginx status
+systemctl status nginx
+
+5. check the welcome page 
+(localhost)
+or 
+(127.0.0.1)
+or
+(instance public IP)
+
+6 change to welcome page
+cd /var/www/html
+
+7. change to another name
+mv index.nginx-debian.html <anyname>
+
+8. clone index.html and index.php from github repo
+git clone <repo name>
+
+9. copy index.* files to directory /var/www/html
+
+10. if needed create new file:
+vim index.html
+esc
+:wg!
+
+11. restart nginx
+systemctl restart nginx
+
+12. reaload web browser page
+________________________________________
+# Activity logs of nginx
+# access logs
+tail /var/log/nginx/access.log
+
+# error logs
+tail /var/log/nginx/error.lg 

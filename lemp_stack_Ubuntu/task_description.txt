@@ -1,0 +1,6 @@
+Task: deloying an application on NGINX in AWS EC2 Ubuntu
+1. update repositories
+2. install nginx
+3. install and enable Firewall
+4. check nginx status
+5. check the welcome page
