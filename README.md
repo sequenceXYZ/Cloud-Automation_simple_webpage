@@ -1,7 +1,7 @@
 # Project: Simple Webpage with Nginx on AWS EC2
 
 ## Overview
-This project involves setting up an Nginx web server on an AWS EC2 instance running Amazon Linux. The goal is to install Nginx, configure it to serve a custom webpage, and ensure that Nginx starts automatically on system boot. This project is part of the Accenture Cloud and Automation Bootcamp 2024.
+This project involves setting up an Nginx web server on an AWS EC2 instance running Amazon Linux. The goal is to install Nginx, configure it to serve a custom webpage, and ensure that Nginx starts automatically on system boot. 
 
 ## Tasks
 
