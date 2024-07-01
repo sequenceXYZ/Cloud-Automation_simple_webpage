@@ -4,4 +4,4 @@ yum install httpd -y
 systemctl start httpd
 systemctl enable httpd
 cd /var/www/html
-echo '<html><h3> ICP Winter Bootcame 2024 student name: </h3></html>' > index.html
+echo '<html><h3> ICP Winter Bootcame 2024 student name: Agnija </h3></html>' > index.html
